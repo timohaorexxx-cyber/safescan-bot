@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeScan Bot - Защита от вирусов и вредоноса</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-shield-alt"></i>
+                <span>SafeScan</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Возможности</a></li>
+                <li><a href="#how-it-works">Как это работает</a></li>
+                <li><a href="#benefits">Преимущества</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Герой секция -->
+    <section class="hero">
+        <div class="stars">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+        <div class="container hero-content">
+            <h1>Защитите себя от угроз в интернете</h1>
+            <p>SafeScan Bot - ваш надежный помощник в борьбе с вирусами, вредоносным ПО и опасными ссылками</p>
+            <button class="btn btn-primary" onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
+                Узнать больше
+            </button>
+        </div>
+        <div class="hero-image">
+            <div class="shield-animation">
+                <i class="fas fa-shield-virus"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Основные возможности -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Основные возможности</h2>
+            <div class="features-grid">
+                <!-- Проверка ссылок -->
+                <div class="feature-card">
+                    <div class="icon-box links">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>Проверка ссылок</h3>
+                    <p>Мгновенно анализируем любые URL-адреса и определяем, содержат ли они вредоносный контент, фишинг или другие угрозы</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Проверка в реальном времени</li>
+                        <li><i class="fas fa-check"></i> Базы данных вирусов</li>
+                        <li><i class="fas fa-check"></i> Фишинг-детектор</li>
+                    </ul>
+                </div>
+
+                <!-- Проверка файлов -->
+                <div class="feature-card">
+                    <div class="icon-box files">
+                        <i class="fas fa-file-shield"></i>
+                    </div>
+                    <h3>Анализ файлов</h3>
+                    <p>Загрузите файлы и получите полный анализ на предмет вирусов, trojans, worms и других типов вредоноса</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Множественное сканирование</li>
+                        <li><i class="fas fa-check"></i> Все типы файлов</li>
+                        <li><i class="fas fa-check"></i> Детальный отчет</li>
+                    </ul>
+                </div>
+
+                <!-- Проверка QR кодов -->
+                <div class="feature-card">
+                    <div class="icon-box qr">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                    <h3>Сканирование QR-кодов</h3>
+                    <p>Проверьте QR-коды перед сканированием и защитите себя от вредоносных ссылок, скрытых в кодах</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Распознавание кодов</li>
+                        <li><i class="fas fa-check"></i> Предпросмотр URL</li>
+                        <li><i class="fas fa-check"></i> Безопасный анализ</li>
+                    </ul>
+                </div>
+
+                <!-- Мониторинг в реальном времени -->
+                <div class="feature-card">
+                    <div class="icon-box monitor">
+                        <i class="fas fa-radar"></i>
+                    </div>
+                    <h3>Мониторинг 24/7</h3>
+                    <p>Постоянное обновление баз данных угроз и круглосуточная защита от новых типов вирусов</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Обновления в реальном времени</li>
+                        <li><i class="fas fa-check"></i> Оповещения об угрозах</li>
+                        <li><i class="fas fa-check"></i> Архив скансованных объектов</li>
+                    </ul>
+                </div>
+
+                <!-- История и статистика -->
+                <div class="feature-card">
+                    <div class="feature-card">
+                    <div class="icon-box stats">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>История и статистика</h3>
+                    <p>Отслеживайте все проведенные проверки и просматривайте детальную статистику своей активности</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> История сканирований</li>
+                        <li><i class="fas fa-check"></i> Статистика угроз</li>
+                        <li><i class="fas fa-check"></i> Персональный отчет</li>
+                    </ul>
+                </div>
+
+                <!-- Быстрый доступ -->
+                <div class="feature-card">
+                    <div class="icon-box access">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Быстрый доступ</h3>
+                    <p>Веб-интерфейс и боты в мессенджерах для удобного доступа к защите с любого устройства</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Веб-версия</li>
+                        <li><i class="fas fa-check"></i> Telegram бот</li>
+                        <li><i class="fas fa-check"></i> Discord интеграция</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Как это работает -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>Как это работает</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Загрузка или ввод</h3>
+                    <p>Вы предоставляете ссылку, загружаете файл или QR-код через веб-интерфейс или бота</p>
+                </div>
+                <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Анализ</h3>
+                    <p>SafeScan Bot проверяет объект в нескольких антивирусных базах данных</p>
+                </div>
+                <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Результат</h3>
+                    <p>Вы получаете полный отчет с информацией об обнаруженных угрозах</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2>Почему выбирают SafeScan</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Высокая точность</h3>
+                    <p>Использование современных алгоритмов и AI для максимальной точности обнаружения</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Скорость проверки</h3>
+                    <p>Результаты анализа получаются за считанные секунды</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Бесплатный доступ</h3>
+                    <p>Базовые функции доступны всем абсолютно бесплатно</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Конфиденциальность</h3>
+                    <p>Все данные зашифрованы и не передаются третьим лицам</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Все устройства</h3>
+                    <p>Работает на любых устройствах - компьютере, планшете или смартфоне</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-life-ring"></i>
+                    </div>
+                    <h3>Техподдержка</h3>
+                    <p>Помощь команды доступна 24/7 в случае вопросов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Статистика -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <h3>1M+</h3>
+                <p>Пользователей</p>
+            </div>
+            <div class="stat-item">
+                <h3>50M+</h3>
+                <p>Проверок</p>
+            </div>
+            <div class="stat-item">
+                <h3>99.9%</h3>
+                <p>Точность</p>
+            </div>
+            <div class="stat-item">
+                <h3>24/7</h3>
+                <p>Поддержка</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA секция -->
+    <section class="cta">
+        <div class="container">
+            <h2>Начните защищать себя прямо сейчас!</h2>
+            <p>Не ждите, когда вирус попадет на ваш компьютер. Проверьте подозрительные ссылки и файлы сейчас</p>
+            <button class="btn btn-primary btn-large">Открыть SafeScan Bot</button>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Свяжитесь с нами</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>support@safescan.bot</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-comments"></i>
+                    <h3>Telegram</h3>
+                    <p>@safescan_support</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-globe"></i>
+                    <h3>Веб-сайт</h3>
+                    <p>www.safescan.bot</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Телефон</h3>
+                    <p>+7 (XXX) XXX-XX-XX</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SafeScan Bot</h4>
+                    <p>Защита от вирусов и вредоносного ПО в один клик</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Продукты</h4>
+                    <ul>
+                        <li><a href="#">Веб-версия</a></li>
+                        <li><a href="#">Telegram Bot</a></li>
+                        <li><a href="#">Discord Bot</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Карьера</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Легально</h4>
+                    <ul>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Условия использования</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SafeScan Bot. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
